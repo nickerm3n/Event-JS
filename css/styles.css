@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+body {
+	background: #dbe9e9;
+}
+
+.container {
+	width: 380px;
+	height: 300px;
+	margin: 50px auto 0;
+	background: #93bebd;
+	border-radius: 15px;
+	box-shadow: 2px 2px 1px 1px rgba(21, 64, 63, 1.0);
+	padding: 15px;
+}
+
+.help {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Arvo', serif;
+}
+
+.hotkey {
+	color: #fff;
+	font-family: 'Arvo', serif;
+	
+}
+
+.btn-style {
+	margin-top: 10px;
+	padding: 10px;
+	display: inline-block;
+	background: #e7eaed;
+	color: coral;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px 1px #b9c2c9;
+	font-weight: 700;
+}
+
+.switch, .textarea {
+	margin-top: 15px;
+	padding: 15px 10px;
+	border: 1px solid;
+	background: #37605f;
+	border-radius: 5px;
+	border-color:#37605f;
+	color: #fff;
+	display: block;
+	height: 96px;
+	box-shadow: inset 2px 2px 1px 1px #132c2c;
+}
+
+.textarea {
+	width: 350px;
+	display: none;
+	background: #b7d4d3;
+}
